@@ -1,3 +1,10 @@
+// 1. Two Sum
+// Solution: Hash Map
+
+// Complexity:
+// Time: O(n) 
+// Space: O(n)
+
 import java.util.HashMap;
 
 class Solution {
@@ -12,8 +19,3 @@ class Solution {
         }
         return new int[]{};    }
 }
-
-
-// Complexity:
-// Time: O(n) 
-// Space: O(n)
