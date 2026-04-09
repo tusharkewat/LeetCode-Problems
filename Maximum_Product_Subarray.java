@@ -1,3 +1,8 @@
+// LeetCode 152. Maximum Product Subarray
+// Complexity 
+// Time  O(n)
+// Space O(1)
+
 public class Maximum_Product_Subarray {
     public int maxProduct(int[] nums) {
     int currentMax = nums[0];
