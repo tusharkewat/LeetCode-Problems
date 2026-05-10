@@ -1,3 +1,8 @@
+// LeetCode 290. Word Pattern
+// Complexity	
+// Time	    O(n)
+// Space	O(n)
+
 import java.util.HashMap;
 import java.util.Map;
 
