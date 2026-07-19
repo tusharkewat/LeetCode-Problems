@@ -5,14 +5,14 @@
 
 
 public class Backspace_String_Compare {
-    public boolean backspaceCompare(String s, String t) {
+    public static boolean backspaceCompare(String s, String t) {
         String str1 = removeStars(s);
         String str2 = removeStars(t);
 
         return str1.equals(str2);
     }
 
-    private String removeStars(String s) {
+    private static String removeStars(String s) {
         StringBuilder sb = new StringBuilder();
 
         for (int i = 0; i < s.length(); i++) {
@@ -26,5 +26,10 @@ public class Backspace_String_Compare {
             }
         }
         return sb.toString();
+    }
+
+    public static void main(String[] args) {
+        String s = "ab#c", t = "ad#c";
+        System.out.println(backspaceCompare(s, t));
     }
 }
