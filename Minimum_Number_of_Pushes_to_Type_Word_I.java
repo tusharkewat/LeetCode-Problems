@@ -1,7 +1,7 @@
 // LeetCode 3014. Minimum Number of Pushes to Type Word I
 // Complexity
 // Time  O(n)
-// Space  O(n)
+// Space  O(1)
 
 public class Minimum_Number_of_Pushes_to_Type_Word_I {
     public static int minimumPushes(String word) {
