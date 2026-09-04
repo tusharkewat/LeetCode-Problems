@@ -1,4 +1,7 @@
 // LeetCode 3903. Smallest Stable Index I
+// Complexity
+// Time: O(n)
+// Space: O(1) 
 
 public class Smallest_Stable_Index_I {
     public static int firstStableIndex(int[] nums, int k) {
